@@ -6,4 +6,5 @@ resource "aws_db_instance" "database" {
   name                 = "ptfe"
   username             = var.username
   password             = var.password
+  storage_encrypted = true
 }
